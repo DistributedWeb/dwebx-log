@@ -1,33 +1,33 @@
 {
-  "name": "dat-log",
-  "description": "view history of dat in the cli",
-  "version": "1.2.0",
+  "name": "dwebx-log",
+  "description": "view history of dwebx in the cli",
+  "version": "1.0.0",
   "author": "Joe Hand <joe@hand.email>",
   "bugs": {
-    "url": "https://github.com/joehand/dat-log/issues"
+    "url": "https://github.com/joehand/dwebx-log/issues"
   },
   "devDependencies": {
     "standard": "*"
   },
   "main": "./index.js",
   "bin": {
-    "dat-log": "./cli.js"
+    "dwebx-log": "./cli.js"
   },
-  "homepage": "https://github.com/joehand/dat-log",
+  "homepage": "https://github.com/joehand/dwebx-log",
   "keywords": [
-    "dat",
-    "hyperdrive"
+    "dwebx",
+    "ddrive"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joehand/dat-log.git"
+    "url": "https://github.com/joehand/dwebx-log.git"
   },
   "scripts": {
     "test": "standard"
   },
   "dependencies": {
-    "dat-node": "^3.3.1",
+    "dwebx-node": "git://github.com/DistributedWeb/dwebx-node.git#52c5bc44c5b7803917409e6b72a4feee6605a79d",
     "minimist": "^1.2.0",
     "neat-log": "^2.4.0",
     "prettier-bytes": "^1.0.4",
