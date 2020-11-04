@@ -1,10 +1,10 @@
 {
   "name": "dwebx-log",
-  "description": "view history of dwebx in the cli",
+  "description": "CLI for showing a dDatabase's versions.",
   "version": "1.0.0",
-  "author": "Joe Hand <joe@hand.email>",
+  "author": "Peeps Labs <peepslabs.gmail.com>",
   "bugs": {
-    "url": "https://github.com/joehand/dwebx-log/issues"
+    "url": "https://github.com/distributedweb/dwebx-log/issues"
   },
   "devDependencies": {
     "standard": "*"
@@ -13,7 +13,7 @@
   "bin": {
     "dwebx-log": "./cli.js"
   },
-  "homepage": "https://github.com/joehand/dwebx-log",
+  "homepage": "https://dwebx.org",
   "keywords": [
     "dwebx",
     "ddrive"
@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joehand/dwebx-log.git"
+    "url": "https://github.com/distributedweb/dwebx-log.git"
   },
   "scripts": {
     "test": "standard"
